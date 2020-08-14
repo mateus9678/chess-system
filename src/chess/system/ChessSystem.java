@@ -4,18 +4,17 @@
  * and open the template in the editor.
  */
 package chess.system;
-
-/**
- *
- * @author TESTE
- */
+import chess.system.BoardGame.Position;
 public class ChessSystem {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         System.out.println("ib"); 
+        
+        Position pos = new Position (3,5);
+        System.out.println("" + pos.toString());
+        
+        
     }
     
 }
